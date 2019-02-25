@@ -1,0 +1,30 @@
+{
+  "name": "model",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "customID": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "downloadLink": {
+      "type": "string"
+    },
+    "shelfID": {
+      "type": "string"
+    },
+    "lajiDocumentID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
